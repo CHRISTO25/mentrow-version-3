@@ -1,0 +1,15 @@
+ul>li:hover{
+    background-color: rgba(93,135,255,0.1);
+    color: #5D87FF
+}
+.cross {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .cross {
+      display: block;
+    }
+  
+
+  }

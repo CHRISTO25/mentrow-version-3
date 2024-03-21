@@ -1,0 +1,62 @@
+/* Custom CSS */
+
+.set-bg{
+    background-color: white;
+    color: black;
+    margin-top:6%;
+    
+
+}
+.content{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(226, 244, 244) !important;
+
+}
+.content p,ul{
+    color: #3f1869;
+}
+.content h1{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.navbar-nav .nav-link {
+    padding: .5rem 1rem; /* Adjust padding as needed */
+}
+
+/* To center align items in the navbar */
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* For collapsing the navbar items in smaller screens */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav .nav-link {
+        padding: .5rem 0;
+    }
+}
+
+span:hover {
+    color: #007bff; /* Change color on hover */
+    text-decoration: underline; /* Underline text on hover */
+  }
+  .text-primary{
+    color: rgb(144, 144, 233)
+  }
+
+  .custom-navbar {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .custom-navbar:hover {
+ 
+    background-color: #007bff;
+  }
+  .link{
+    margin-left: 25px;
+  }

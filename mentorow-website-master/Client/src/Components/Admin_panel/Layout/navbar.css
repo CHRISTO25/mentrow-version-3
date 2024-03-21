@@ -1,0 +1,11 @@
+.menuIcon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .menuIcon {
+      display: block;
+    }
+  
+
+  }
